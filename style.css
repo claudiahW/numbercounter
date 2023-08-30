@@ -2,7 +2,6 @@ body{
 background-color: #d0d6b5;
 }
 .container{
-    border: 1px solid black;
     width: 95%;
     height:100vf;
     margin: auto;
@@ -24,6 +23,14 @@ background-color: #d0d6b5;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
 
+
+}
+.counter h1{
+    font-size: 2rem;
+
+}
+#count{
+    font-size: 9rem;
 }
